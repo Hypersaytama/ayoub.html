@@ -1,0 +1,75 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #f8f8f8; /* Light Gray background */
+  color: #333; /* Dark Gray text color */
+}
+
+.header {
+  background-color: #3498db; /* Dodger Blue header background */
+  padding: 20px;
+  text-align: center;
+  color: #fff; /* White text color */
+}
+
+.profile img {
+  border-radius: 50%;
+  max-width: 150px;
+}
+
+.info {
+  color: #fff; /* White text color */
+}
+
+.hobbies,
+.projects,
+.gallery {
+  padding: 20px;
+  background-color: #fff; /* White background for sections */
+  border-radius: 10px;
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1); /* Subtle box shadow */
+  margin-bottom: 20px;
+}
+
+h2 {
+  color: #3498db; /* Dodger Blue heading color */
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+.project,
+.gallery {
+  margin-bottom: 20px;
+}
+
+.image-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.image-container img {
+  max-width: 300px;
+  margin-bottom: 15px;
+  border-radius: 12px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.2); /* Slightly stronger box shadow for images */
+}
+
+.footer {
+  background-color: #3498db; /* Dodger Blue footer background */
+  color: #fff; /* White text color */
+  text-align: center;
+  padding: 15px;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
